@@ -1,0 +1,22 @@
+============================================
+RENDER DEPLOYMENT - SIMPLE COPY & PASTE
+============================================
+
+BUILD COMMAND:
+cd frontend && npm ci && npm run build
+
+START COMMAND:
+cd frontend && npm start
+
+ENVIRONMENT VARIABLE:
+KEY: NODE_ENV
+VALUE: production
+
+============================================
+THAT'S IT! Just paste these into Render.
+============================================
+
+Your deployed URL will be:
+https://beyond-eta.onrender.com
+
+(or whatever name you give the service)
