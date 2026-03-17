@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/Beyond-ETA',
+  basePath: process.env.DEPLOY_TARGET === 'github-pages' ? '/Beyond-ETA' : '',
   images: {
     unoptimized: true,
   },
