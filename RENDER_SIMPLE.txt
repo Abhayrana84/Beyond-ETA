@@ -3,7 +3,7 @@ RENDER DEPLOYMENT - SIMPLE COPY & PASTE
 ============================================
 
 BUILD COMMAND:
-cd frontend && npm ci && npm run build
+cd frontend && npm install --legacy-peer-deps --production=false && npm run build
 
 START COMMAND:
 cd frontend && npm start

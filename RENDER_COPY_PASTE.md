@@ -2,7 +2,7 @@
 
 ## Build Command
 ```
-cd frontend && npm ci && npm run build
+cd frontend && npm install --legacy-peer-deps --production=false && npm run build
 ```
 
 ## Start Command
@@ -35,7 +35,7 @@ cd frontend && npm start
 
 ### 3. Copy This Build Command
 ```
-cd frontend && npm ci && npm run build
+cd frontend && npm install --legacy-peer-deps --production=false && npm run build
 ```
 
 ### 4. Copy This Start Command
